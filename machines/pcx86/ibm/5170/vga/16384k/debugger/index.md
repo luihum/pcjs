@@ -7,6 +7,4 @@ machines:
     type: pcx86
     config: /pcjs/configs/pcx86/machine/ibm/5170/vga/16384k/debugger/machine.xml
 ---
-
-if this works i have no idea how
-{% include machine.html id="ibm-5170-vga" %}
+{% include machine.html id="ibm-5170-vga-op" %}
