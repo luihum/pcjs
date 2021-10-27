@@ -67,3 +67,5 @@ archive:
     server: https://msarchive.pcjs.org
   kb:
     server: https://jeffpar.github.io/kbarchive
+
+theme: jekyll-theme-minimal
