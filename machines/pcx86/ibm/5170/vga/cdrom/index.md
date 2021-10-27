@@ -6,7 +6,7 @@ redirect_from: /disks/pcx86/drives/cdrom/
 machines:
   - id: ibm-5170-vga
     type: pcx86
-    config: /configs/pcx86/machine/ibm/5170/vga/2048kb/cdrom/machine.xml
+    config: /configs/pcx86/machine/ibm/5170/vga/16384k/debuggger/machine.xml
 ---
 
 The original IBM PC AT's fixed disk controller was originally referred to as an **AT Attachment**
@@ -25,8 +25,8 @@ but there's no reason why an ATAPI controller for a 16-bit ISA bus would not hav
 as its "primary" interface was disabled (to avoid conflicting with the PC AT's existing ATA controller)
 and the ATAPI drive was connected to controller's "secondary" interface.
 
-And in fact, that is exactly how the machine below is configured.  It's also available with the [PCjs Debugger](debugger/).
-
+~~And in fact, that is exactly how the machine below is configured.  It's also available with the [PCjs Debugger](debugger/).~~
+jk, this is actually a op pc
 {% include machine.html id="ibm-5170-vga" %}
 
 {% include gallery/documents.html width="200" height="280" %}
