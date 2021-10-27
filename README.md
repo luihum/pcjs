@@ -1,5 +1,6 @@
 # PCjs Machines
-
+## don't forget to fix the links
+### i'll just fix what I need for my thing
 [PCjs](https://www.pcjs.org) is the home of [PCx86](/machines/pcx86/), the original IBM PC emulator that runs in your web browser.
 
 It is one of several JavaScript Machines in this project that span a variety of devices:
