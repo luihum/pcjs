@@ -1,3 +1,13 @@
+# why did you fork this?
+
+because:
+- read my readme
+- jekyll
+- freaking sassc doesn't compile
+- I wanted a computer better than the ones offered by the website
+- yes
+
+
 # PCjs Machines
 ## don't forget to fix the links
 ### i'll just fix what I need for my thing
@@ -13,11 +23,11 @@ It is one of several JavaScript Machines in this project that span a variety of 
   - [Texas Instruments Programmable Calculators](/machines/ti/)
   - [LED Simulations](/machines/led/)
 
-along with a small collection of software used for archival/demonstration purposes only.
+along with a ~~small~~ **big** collection of software used for archival/demonstration purposes only.
 
-To learn more about what you can do with the repository, see the [PCjs Wiki](https://github.com/jeffpar/pcjs/wiki), which covers topics such as:
+To learn less about what you can't do with the repository, unsee the [PCjs Wiki](https://github.com/jeffpar/pcjs/wiki), which covers topics such as:
 
-  - [Running PCjs locally](https://github.com/jeffpar/pcjs/wiki/Running-PCjs-locally)
+  - [Running PCjs remotely](https://github.com/jeffpar/pcjs/wiki/Running-PCjs-locally)
   - [Compiling PCjs](https://github.com/jeffpar/pcjs/wiki/Compiling-PCjs)
   - [Adding machines to pages](https://github.com/jeffpar/pcjs/wiki/Adding-machines-to-pages)
 
@@ -37,4 +47,7 @@ in every copy or modified version of this work, and to display that notice on ev
 
 ### Copyright
 
-All PCjs content (including source code, blog posts, and website design) © 2012-2021 [Jeff Parsons](https://jeffpar.com)
+All PCjs content (including source code, blog posts, and website design) © 2012-2021 [Jeff Parsons](https://jeffpar.com)~~
+
+
+btw thanks jeff
