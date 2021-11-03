@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Executive Suite (1982)"
-permalink: /software/pcx86/game/other/1982/esuite/
-redirect_from: /apps/pcx86/1982/esuite/
+permalink: /pcjs/software/pcx86/game/other/1982/esuite/
+redirect_from: /pcjs/apps/pcx86/1982/esuite/
 preview: images/screenshot.png
 machines:
   - id: ibm5160-esuite
     type: pcx86
-    config: /configs/pcx86/machine/ibm/5160/mda/256kb/fake188/machine.xml
+    config: /pcjs/configs/pcx86/machine/ibm/5160/mda/256kb/fake188/machine.xml
     autoMount:
       A:
         name: PC DOS 2.00 (Disk 1)
