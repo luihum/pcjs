@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Executive Suite (1982)"
-permalink: /pcjs/software/pcx86/game/other/1982/esuite/
-redirect_from: /pcjs/apps/pcx86/1982/esuite/
+permalink: /software/pcx86/game/other/1982/esuite/
+redirect_from: /apps/pcx86/1982/esuite/
 preview: images/screenshot.png
 machines:
   - id: ibm5160-esuite
