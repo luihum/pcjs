@@ -5,8 +5,8 @@
     "A": {"name": "PC DOS 2.00 (Disk 1)"},
     "B": {"name": "PC DOS 2.00 (Disk 2)"}
   },
-  "diskettes": "/configs/pcx86/diskettes.json,/configs/pcx86/private.json,/configs/pcx86/pcsig08a.json,/configs/pcx86/pcsig08b.json",
-  "server": "/diskettes",
+  "diskettes": "/pcjs/configs/pcx86/diskettes.json,/pcjs/configs/pcx86/private.json,/pcjs/onfigs/pcx86/pcsig08a.json,/pcjs/configs/pcx86/pcsig08b.json",
+  "server": "diskettes.pcjs.org",
   "style": {
     "float": "left",
     "padding-right": "8px",
