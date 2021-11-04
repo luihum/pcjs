@@ -11,7 +11,7 @@
 	<keyboard ref="/pcjs/configs/pcx86/keyboard/us84-softkeys.xml">
 		<control type="button" binding="ctrl-alt-ins">Ctrl-Alt-Ins</control>
 	</keyboard>
-	<debugger id="debugger"/>
+	<debugger id="debugger"/> 
 	<panel ref="/pcjs/configs/pcx86/panel/wide286.xml"/>
 	<hdc ref="/pcjs/configs/pcx86/hdc/62mb/unformatted-at4.xml"/>
 	<hdc ref="/pcjs/configs/pcx86/hdc/cdrom/library-atapi.xml"/>
