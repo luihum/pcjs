@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IBM PC AT (Model 5170) with 32Mb RAM and 62Mb HDD
-permalink: /pcjs/machines/pcx86/ibm/5170/vga/cdrom/
+permalink: /op-pc/
 machines:
   - id: ibm-5170-vga-op
     type: pcx86
