@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/configs/pcx86/xsl/machine.xsl"?>
 <machine id="ibm5170" type="pcx86" border="1" pos="center" background="default">
-	<name pos="center">IBM PC AT (4Mhz) With 16Mb RAM, 62Mb Hard Disk, IBM VGA, Debugger, CD-ROM, COM1, COM2, LPT1, 80386 CPU</name>
+	<name pos="center">IBM PC AT (4Mhz) with 32Mb RAM, 62Mb Hard Disk, IBM VGA, Debugger, CD-ROM, COM1, COM2, LPT1, 80386 CPU</name>
 	<computer id="at-vga-2048k" name="IBM PC AT" buswidth="32"/>
 	<ram id="ramLow" addr="0x000000" test="false" size="0xa0000" comment="ROM BIOS memory test has been disabled"/>
 	<ram id="ramExt" addr="0x100000" size="0x2000000" comment=""/>
@@ -22,5 +22,5 @@
 	<serial id="com1" adapter="1"/>
 	<serial id="com2" adapter="2" binding="print"/>
 	<parallel id="lpt1" adapter="1"/>
-	<!--<mouse serial="com1"/> -->
+	<<mouse serial="com1"/> 
 </machine>
