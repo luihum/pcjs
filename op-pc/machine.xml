@@ -5,8 +5,6 @@
 	<computer id="at-vga-2048k" name="IBM PC AT" buswidth="32"/>
 	<ram id="ramLow" addr="0x000000" test="false" size="0xa0000" comment="ROM BIOS memory test has been disabled"/>
 	<ram id="ramExt" addr="0x100000" size="0x2000000" comment=""/>
-	<ram id="ramExp1" addr="0xc8000" size="0x27fff" comment="Expanded memory at C8000-EFFFF"/>
-	<ram id="ramExp2" addr="0xb0000" size="0x07fff" comment="Expanded memory at B0000-B7FFF"/>
 	<rom id="romBIOS" addr="0xf0000" size="0x10000" alias="0xFFFF0000" file="/pcjs/machines/pcx86/ibm/5170/rom/bios/1985-11-15/ATBIOS-REV3.json"/>
 	<video ref="/pcjs/configs/pcx86/video/ibm/vga/1986-10-27/ibm-vga-autolockfs.xml"/>
 	<fdc ref="/pcjs/configs/pcx86/fdc/library.xml" autoMount='{A:{name:"PC DOS 3.30 (Disk 1)"}, B:{name:"PC DOS 3.30 (Disk 2)"}}'/>
@@ -22,5 +20,5 @@
 	<serial id="com1" adapter="1"/>
 	<serial id="com2" adapter="2" binding="print"/>
 	<parallel id="lpt1" adapter="1"/>
-	<<mouse serial="com1"/> 
+	<mouse serial="com1"/> 
 </machine>
