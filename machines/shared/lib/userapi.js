@@ -15,7 +15,7 @@
  *      web.getHostOrigin() + UserAPI.ENDPOINT + '?' + UserAPI.QUERY.REQ + '=' + UserAPI.REQ.VERIFY + '&' + UserAPI.QUERY.USER + '=' + sUser;
  */
 var UserAPI = {
-    ENDPOINT:       "/api/v1/user",
+    ENDPOINT:       "/pcjs/api/v1/user",
     QUERY: {
         REQ:        "req",      // specifies a request
         USER:       "user",     // specifies a user ID
