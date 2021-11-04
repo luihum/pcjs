@@ -12,7 +12,7 @@
 	<debugger id="debugger"/>
 	<panel ref="/pcjs/configs/pcx86/panel/wide286.xml"/>
 	<hdc ref="/pcjs/configs/pcx86/hdc/62mb/unformatted-at4.xml"/>
-	<hdc ref="/configs/pcx86/hdc/cdrom/library-atapi.xml"/>
+	<hdc ref="/pcjs/configs/pcx86/hdc/cdrom/library-atapi.xml"/>
 	<cpu id="cpu486" model="80486" cycles="4000000"/>
 	<chipset id="chipset" model="5170" floppies="[1440,1440]"/>
 	<serial id="com1" adapter="1"/>
