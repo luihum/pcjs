@@ -3,9 +3,9 @@
 <machine id="ibm5170" type="pcx86" border="1" pos="center" background="default">
 	<name pos="center">IBM PC AT (4Mhz) With 16Mb RAM, 62Mb Hard Disk, IBM VGA, Debugger, CD-ROM, COM1, COM2, LPT1, 80386 CPU</name>
 	<computer id="at-vga-2048k" name="IBM PC AT" buswidth="24"/>
-	<ram id="ramLow" addr="0x00000" test="false" size="0xa0000" comment="ROM BIOS memory test has been disabled"/>
-	<ram id="ramExt" addr="0x100000" size="0xEFFFFE" comment=""/>
-	<rom id="romBIOS" addr="0xf0000" size="0x10000" file="/pcjs/machines/pcx86/ibm/5170/rom/bios/1985-11-15/ATBIOS-REV3.json"/>
+	<ram id="ramLow" addr="0x000000" test="false" size="0x0a0000" comment="ROM BIOS memory test has been disabled"/>
+	<ram id="ramExt" addr="0x0f0000" size="0xEFFFFF" comment=""/>
+	<rom id="romBIOS" addr="0xf00000" size="0x010000" file="/pcjs/machines/pcx86/ibm/5170/rom/bios/1985-11-15/ATBIOS-REV3.json"/>
 	<video ref="/pcjs/configs/pcx86/video/ibm/vga/1986-10-27/ibm-vga-autolockfs.xml"/>
 	<fdc ref="/pcjs/configs/pcx86/fdc/library.xml" autoMount='{A:{name:"PC DOS 3.30 (Disk 1)"}, B:{name:"PC DOS 3.30 (Disk 2)"}}'/>
 	<keyboard ref="/pcjs/configs/pcx86/keyboard/us84-softkeys.xml"/>
