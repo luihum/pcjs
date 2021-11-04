@@ -6,7 +6,7 @@ redirect_from: /devices/pcx86/machine/5160/ega/4096k/80188
 machines:
   - id: ibm-5160-ega-4mb-80188
     type: pcx86
-    config: /configs/pcx86/machine/ibm/5160/ega/4096kb/fake188/machine.xml
+    config: /pcjs/configs/pcx86/machine/ibm/5160/ega/4096kb/fake188/machine.xml
     autoType: $date\r$time\r
 ---
 
