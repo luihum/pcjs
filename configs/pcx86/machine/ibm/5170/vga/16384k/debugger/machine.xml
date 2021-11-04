@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/configs/pcx86/xsl/machine.xsl"?>
 <machine id="ibm5170" type="pcx86" border="1" pos="center" background="default">
-	<name pos="center">IBM PC AT (8Mhz), 16Mb RAM, 62Mb Hard Disk, IBM VGA</name>
+	<name pos="center">IBM PC AT (4Mhz), 16Mb RAM, 62Mb Hard Disk, IBM VGA, 80486</name>
 	<computer id="at-vga-2048k" name="IBM PC AT" buswidth="24"/>
 	<ram id="ramLow" addr="0x00000" test="false" size="0xa0000" comment="ROM BIOS memory test has been disabled"/>
-	<ram id="ramExt" addr="0x100000" size="0xD00000" comment=""/>
+	<ram id="ramExt" addr="0x100000" size="0xEFFFFF" comment=""/>
 	<rom id="romBIOS" addr="0xff0000" size="0x10000" alias="0xf0000" file="/pcjs/machines/pcx86/ibm/5170/rom/bios/1985-11-15/ATBIOS-REV3.json"/>
 	<video ref="/pcjs/configs/pcx86/video/ibm/vga/1986-10-27/ibm-vga-autolockfs.xml"/>
 	<fdc ref="/pcjs/configs/pcx86/fdc/library.xml" autoMount='{A:{name:"PC DOS 3.30 (Disk 1)"}, B:{name:"PC DOS 3.30 (Disk 2)"}}'/>
@@ -12,8 +12,9 @@
 	<debugger id="debugger"/>
 	<panel ref="/pcjs/configs/pcx86/panel/wide286.xml"/>
 	<hdc ref="/pcjs/configs/pcx86/hdc/62mb/unformatted-at4.xml"/>
-	<cpu id="cpu286" model="80286" cycles="8000000"/>
-	<chipset id="chipset" model="5170" floppies="[1440,1200]"/>
+	<hdc ref="/configs/pcx86/hdc/cdrom/library-atapi.xml"/>
+	<cpu id="cpu486" model="80486" cycles="4000000"/>
+	<chipset id="chipset" model="5170" floppies="[1440,1440]"/>
 	<serial id="com1" adapter="1"/>
 	<serial id="com2" adapter="2" binding="print"/>
 	<!--<mouse serial="com1"/> -->
