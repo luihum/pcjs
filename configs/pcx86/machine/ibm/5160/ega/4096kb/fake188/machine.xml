@@ -12,7 +12,7 @@
 	<fdc ref="/pcjs/configs/pcx86/fdc/library.xml" autoMount='{A:{name:"PC DOS 3.20 (Disk 1)"},B:{name:"PC DOS 3.20 (Disk 2)"}}'/>
 	<hdc ref="/pcjs/configs/pcx86/hdc/10mb/pcdos200-empty-xt3.xml"/>
 	<keyboard ref="/pcjs/configs/pcx86/keyboard/us83-softkeys.xml"/>
-	<cpu id="cpu80188" model="80188" pos="right" padRight="8px" padBottom="8px">
+	<cpu id="cpu80188" model="80386" pos="right" padRight="8px" padBottom="8px">
 		<control type="button" binding="run">Run</control>
 		<control type="button" binding="reset">Reset</control>
 		<control type="button" binding="setSpeed">Speed</control>
