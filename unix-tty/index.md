@@ -13,7 +13,7 @@ machines:
     type: vt100
     name: DEC VT100
     config: vt100.json
-    layout: ../_includes/vt100.html
+    layout: https://raw.githubusercontent.com/luihum/pcjs/1dc7cbfb8f8b9fd6cf3e0c9534a9a814e5517a37/unix-tty/_vt100.html
     connection: serialPort->unix-pc.pc-serial-1
 ---
 
