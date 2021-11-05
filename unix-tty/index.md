@@ -13,7 +13,7 @@ machines:
     type: vt100
     name: DEC VT100
     config: vt100.json
- 
+    layout: ../_includes/vt100.html
     connection: serialPort->unix-pc.pc-serial-1
 ---
 
@@ -25,4 +25,4 @@ If the terminal becomes LOCKED, press the SET-UP key twice to unlock it.
 {% include machine.html id="unix-pc" %}
 
 {% include machine.html id="vt100" %}
-<!--   layout: vt100.html-->
+<!--   -->
