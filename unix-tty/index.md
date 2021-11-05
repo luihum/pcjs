@@ -2,7 +2,6 @@
 layout: page
 title: UNIX Computer with VT100
 permalink: /unix-tty/
-redirect_from: /devices/pc8080/machine/vt100/dual/
 machines:
   - id: unix-pc
     type: pcx86
@@ -13,7 +12,7 @@ machines:
     type: vt100
     name: DEC VT100
     config: vt100.json
-    layout: _vt100.html
+    layout: vt100.html
     connection: serialPort->unix-pc.pc-serial-1
 ---
 
