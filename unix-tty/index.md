@@ -2,6 +2,7 @@
 layout: page
 title: UNIX Computer with VT100
 permalink: /unix-tty/
+redirect-from: /devices/unix-cool-tty-secret-redirect
 machines:
   - id: unix-pc
     type: pcx86
