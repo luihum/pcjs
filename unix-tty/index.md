@@ -1,14 +1,13 @@
 ---
 layout: page
 title: UNIX Computer with VT100
-permalink: /unix-tty
+permalink: /unix-tty/
 redirect_from: /devices/pc8080/machine/vt100/dual/
 machines:
   - id: unix-pc
     type: pcx86
     name: IBM PC AT CGA 16Mb
-    config: /pcjs/configs/vt100/vt100.json
-    layout: /pcjs/_includes/vt100/vt100.html
+    config: machine.xml
     connection: pc-serial-1->vt100.serialPort
   - id: vt100
     type: vt100
