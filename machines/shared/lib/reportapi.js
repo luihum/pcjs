@@ -10,7 +10,7 @@
 "use strict";
 
 var ReportAPI = {
-    ENDPOINT:       "/api/v1/report",
+    ENDPOINT:       "/pcjs/api/v1/report",
     QUERY: {
         APP:        "app",
         VER:        "ver",
