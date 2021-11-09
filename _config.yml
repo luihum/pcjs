@@ -1,5 +1,5 @@
 title: PCjs Machines
-domain: pcjs.org
+domain: luihum.github.io/pcjs/
 tagline: Home of the original IBM PC emulator for browsers.
 description: >
   PCjs offers a variety of online machine emulators written in JavaScript. Run DOS, Windows, OS/2 and other vintage PC
@@ -8,7 +8,6 @@ description: >
 author: Jeff Parsons
 logo: /assets/img/logo-home.png
 data_dir: configs
-google_analytics: UA-49658648-1
 left_brace: "{"
 right_brace: "}" 
 encoding: UTF-8
@@ -36,10 +35,12 @@ exclude:
   - /software/pcx86/sys/dos/microsoft/2.11/src
 
 github:
-  owner_name: "jeffpar"
-  owner_url: https://github.com/jeffpar
-  repository_url: https://github.com/jeffpar/pcjs
-  pages: https://github.com/jeffpar/pcjs/tree/gh-pages
+  name_of_the_guy_who_technically_owns_this_repo: "luihum"
+  original_author_name: "jeffpar"
+  original_author_url: https://github.com/jeffpar
+  url_of_the_guy_who_technically_owns_this_repo: https://github.com/luihum
+  repository_url: https://github.com/luihum/pcjs
+  pages: https://github.com/luihum/pcjs/tree/gh-pages
 
 kramdown:
   input: GFM
